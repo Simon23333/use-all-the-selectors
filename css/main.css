@@ -1,8 +1,8 @@
 html{
   /*Everything in here will design the HTML element*/
-background-color: #fdf6e3;
+  background-color: #fdf6e3;
 }
-header,footer{
+header footer{
   font-size: 1.5rem;
 }
 nav>ul{
@@ -14,20 +14,20 @@ font-family: sans-serif;
 .wrapper{
   background-color: #eee8d5;
 }
-contents,favs,facts,types{
+#contents,#favs,#facts,#types{
   color: #93a1a1;
 }
-wrapper>dnf{
+.dfn{
   color: #b58900;
 }
-.dfn{
+dfn>strong{
   color: #fff;
 }
-a+.no-highlight{
+a{
 background-color: #719e07;
 }
 
-linkrel="external"{
+:link{
   background-color: #2694d8;
 }
 ol>li{
@@ -37,12 +37,12 @@ ol>li{
   color: #2aa198;
 }
 
-ul li:types(odd){
+.types>li:nth-child(odd){
   background-color: #657ba3;
 }
-ul li.nth-child(odd)types{
+.types>li:nth-child(even){
    background-color: #586e75;
 }
-li,types{
+.types>li:nth-child(3n){
   background-color: #d04b16;
 }
