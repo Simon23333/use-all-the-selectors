@@ -2,7 +2,7 @@ html {
   background-color: #fdf6e3;
 }
 
-header footer {
+header, footer {
   font-size: 1.5rem;
 }
 
@@ -22,19 +22,23 @@ nav > ul {
   color: #93a1a1;
 }
 
-.dfn {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-p + strong {
+.wrapper > .dfn {
   color: #fff;
 }
 
-:link {
+a {
+  background-color: #719e07;
+}
+
+a:link {
   background-color: #2694d8;
 }
 
-ol li:first-child  {
+ol li:first-child {
   color: #719e47;
 }
 
